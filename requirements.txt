@@ -1,19 +1,25 @@
+# Core app
 streamlit
+
+# LangChain and Groq integration
 langchain==0.1.16
 langchain-core==0.1.52
 langchain-community==0.0.34
-langchain-openai==0.0.5
 langchain-groq==0.1.4
+
+# Embeddings / NLP
 sentence-transformers
-faiss-cpu
+faiss-cpu==1.7.4
+
+# Web scraping / parsing
 beautifulsoup4
 requests
+
+# Utilities
 python-dotenv
 numpy==1.26.4
-huggingface-hub
-transformers
-torch
-langchain-openai==0.0.5
-tiktoken==0.7.0
 
-
+# Build helpers
+pip>=25.3
+setuptools>=68.0.0
+wheel
