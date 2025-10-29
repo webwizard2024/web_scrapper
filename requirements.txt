@@ -1,9 +1,0 @@
-streamlit
-langchain
-langchain-community
-langchain-groq
-sentence-transformers
-faiss-cpu
-python-dotenv
-beautifulsoup4
-requests
