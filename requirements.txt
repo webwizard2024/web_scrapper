@@ -10,4 +10,8 @@ beautifulsoup4
 requests
 tiktoken
 python-dotenv
+numpy==1.26.4
+huggingface-hub
+transformers
+torch
 
