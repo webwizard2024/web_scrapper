@@ -1,9 +1,14 @@
 streamlit
-langchain==0.0.349
-langchain_community
-langchain_text_splitters
+
+
+
 langchain_groq
 faiss-cpu
 sentence-transformers
 requests
 beautifulsoup4
+langchain>=1.0.0,<2.0.0
+langchain-core>=1.0.0,<2.0.0
+langchain-text-splitters>=1.0.0,<2.0.0
+langchain_community>=0.4.0,<1.0.0
+
